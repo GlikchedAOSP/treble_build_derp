@@ -57,7 +57,7 @@ generatetrees() {
 	echo "--> Generating makefiles"
 	cd device/phh/treble
 	git reset HEAD --hard
-	cp $BUILDBOT_ROOT/aosp.mk .
+	cp $BUILDBOT_ROOT/derp.mk .
 	bash generate.sh derp
 	cd ../../..
 	echo
